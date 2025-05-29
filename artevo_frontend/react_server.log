@@ -26,3 +26,20 @@ ERROR in ./src/App.js 6:0-55
 Module not found: Error: Can't resolve './components/MainContainer' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src'
 
 webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './Sidebar' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src/components'
+ERROR in ./src/components/MainContainer.js 6:0-32
+Module not found: Error: Can't resolve './Sidebar' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src/components'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './Sidebar' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src/components'
+ERROR in ./src/components/MainContainer.js 6:0-32
+Module not found: Error: Can't resolve './Sidebar' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src/components'
+
+webpack compiled with 1 error
+Compiling...
