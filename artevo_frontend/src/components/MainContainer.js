@@ -4,9 +4,12 @@ import Sidebar from "./Sidebar";
 // PUBLIC_INTERFACE
 /**
  * MainContainer for ArtEvo.
- * Handles fixed navbar, collapsible sidebar, and centered main content area with minimalist dark/gradient styling.
+ * Handles fixed navbar, collapsible sidebar, and renders routed main content.
+ *
+ * @param {object} props
+ * @param {React.ReactNode} props.children - Routed page content (provided by App)
  */
-function MainContainer() {
+function MainContainer({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
@@ -34,14 +37,9 @@ function MainContainer() {
       <div className={`core-container${sidebarOpen ? " sidebar-open" : ""}`}>
         <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
         <main className="main-content">
+          {/* center-box is for consistency/minimal design, but we render routed content here */}
           <div className="center-box">
-            <div className="subtitle">AI-Powered Art Assistant</div>
-            <h1 className="title" style={{ marginTop: 0 }}>Welcome to ArtEvo</h1>
-            <div className="description">
-              A minimalist, AI-driven art learning environment.<br />
-              <span style={{ color: "#FF4081" }}>Start exploring creative tools!</span>
-            </div>
-            <button className="main-action-btn">Get Started</button>
+            {children}
           </div>
         </main>
       </div>
