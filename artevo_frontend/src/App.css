@@ -17,15 +17,17 @@
 
 body {
   margin: 0;
-  font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background: var(--gradient-bg), var(--dark-bg);
+  font-family: var(--font-family);
+  background: var(--gradient-bg) no-repeat fixed, var(--dark-bg);
   min-height: 100vh;
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  letter-spacing: 0.004em;
+  font-size: 1.06rem;
 }
 
 .app {
