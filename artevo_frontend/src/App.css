@@ -34,6 +34,10 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
 }
 
 .main-layout {
