@@ -202,20 +202,22 @@ body {
 
 /* Main Call To Action */
 .main-action-btn {
-  margin-top: 11px;
+  margin-top: 18px;
+  padding: 12px 32px;
   background: var(--accent);
   color: #fff;
   border: none;
-  border-radius: 4px;
-  padding: 13px 33px;
+  border-radius: 5px;
   font-size: 1.07rem;
   font-weight: 600;
+  letter-spacing: 0.03em;
   cursor: pointer;
-  box-shadow: 0 1px 8px 0 rgba(255, 64, 129, 0.09);
-  transition: filter var(--transition), background var(--transition);
+  transition: box-shadow var(--transition), filter var(--transition), background var(--transition);
+  box-shadow: 0 2px 14px 0 rgba(255, 64, 129, 0.13);
+  outline: none;
 }
-.main-action-btn:hover {
-  filter: brightness(1.13) drop-shadow(0 3px 11px #ff408183);
+.main-action-btn:hover, .main-action-btn:focus {
+  filter: brightness(1.18) drop-shadow(0 0 16px #ff4081cc);
   background: #ff64a3;
 }
 
