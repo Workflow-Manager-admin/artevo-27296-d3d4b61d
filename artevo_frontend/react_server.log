@@ -7,3 +7,45 @@
 (node:1488) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 Starting the development server...
 
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src'
+ERROR in ./src/App.js 6:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src'
+
+ERROR in ./src/components/Sidebar.js 5:0-43
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src/components'
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src'
+ERROR in ./src/App.js 6:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src'
+
+ERROR in ./src/components/Sidebar.js 5:0-43
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src/components'
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src'
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/node_modules/react-router-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/App.js 6:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src'
+
+ERROR in ./src/components/Sidebar.js 5:0-43
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/artevo-27296-d3d4b61d/artevo_frontend/src/components'
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
